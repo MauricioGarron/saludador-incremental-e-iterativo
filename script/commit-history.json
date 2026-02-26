@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c51344ea9adb720f34e6985b2f97d5f234d366b",
     "author": "Mauricio",
     "commit": {
       "date": "2026-02-26T03:49:48.000Z",
       "message": "feat: saludar dependiendo la edad",
-      "url": "https://github.com/MauricioGarron/saludador-incremental-e-iterativo/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/saludador-incremental-e-iterativo/commit/0c51344ea9adb720f34e6985b2f97d5f234d366b"
     },
     "stats": {
       "total": 38,
@@ -91,6 +91,25 @@
     },
     "coverage": 76.92,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-02-26T03:54:09.000Z",
+      "message": "feat: saluda dependiendo el idioma",
+      "url": "https://github.com/MauricioGarron/saludador-incremental-e-iterativo/commit/HEAD"
+    },
+    "stats": {
+      "total": 68,
+      "additions": 48,
+      "deletions": 20,
+      "date": "2026-02-26"
+    },
+    "coverage": 76,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

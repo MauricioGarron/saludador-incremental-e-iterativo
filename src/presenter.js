@@ -6,6 +6,7 @@ const input = document.querySelector("#nombre-input");
 const div = document.querySelector("#resultado-div");
 const generoSelect = document.querySelector("#genero-select");
 const edadInput = document.querySelector("#edad-input");
+const idiomaSelect = document.querySelector("#idioma-select");
 
 
 const first = document.querySelector("#primer-numero");
@@ -19,8 +20,9 @@ button.addEventListener("click", () => {
   const genero = generoSelect.value;
   const horaActual = fechaActual.getHours();
   const edad = Number.parseInt(edadInput.value);
+  const idioma = idiomaSelect.value;
 
-  div.innerHTML = "<p>" + saludar(nombre, horaActual, genero, edad) + "<p>";
+  div.innerHTML = "<p>" + saludar(nombre, horaActual, genero, edad, idioma) + "<p>";
 });
 
 
