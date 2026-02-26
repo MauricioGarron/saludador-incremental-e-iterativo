@@ -4,6 +4,7 @@ import saludar from "./saludador";
 const button = document.querySelector("#saludar-button");
 const input = document.querySelector("#nombre-input");
 const div = document.querySelector("#resultado-div");
+const generoSelect = document.querySelector("#genero-select");
 
 
 
@@ -15,9 +16,10 @@ const form = document.querySelector("#sumar-form");
 button.addEventListener("click", () => {
   const nombre = input.value;
   const fechaActual = new Date();
+  const genero = generoSelect.value;
   const horaActual = fechaActual.getHours();
 
-  div.innerHTML = "<p>" + saludar(nombre, horaActual) + "<p>";
+  div.innerHTML = "<p>" + saludar(nombre, horaActual, genero) + "<p>";
 });
 
 
