@@ -70,9 +70,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "01b9951e612207115621e0beac13af07cd661efe",
     "commitName": "feat: saluda por un nombre",
     "commitTimestamp": 1772076562783,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772076638052,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saluda dependiendo la hora",
+    "commitTimestamp": 1772076811511,
+    "testId": 2
   }
 ]
