@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "da5b67b5cfc6ff534a2b36ea30c1b74d39130cb7",
     "author": "Mauricio",
     "commit": {
       "date": "2026-02-26T02:58:43.000Z",
       "message": "feat: saluda con hola",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject-logfiles/commit/da5b67b5cfc6ff534a2b36ea30c1b74d39130cb7"
     },
     "stats": {
       "total": 36,
       "additions": 25,
       "deletions": 11,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-02-26T03:29:22.000Z",
+      "message": "feat: saluda por un nombre",
+      "url": "https://github.com/MauricioGarron/saludador-incremental-e-iterativo/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 11,
+      "deletions": 6,
       "date": "2026-02-26"
     },
     "coverage": 100,

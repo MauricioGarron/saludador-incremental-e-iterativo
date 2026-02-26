@@ -1,7 +1,7 @@
 import saludar from "./saludador.js";
 
 describe("Saludador", () => {
-    it("Deberia saludar con hola", () => {
-        expect(saludar()).toEqual("hola");
-    });
+  it("deberia saludar por nombre", () => {
+    expect(saludar("Mauricio")).toEqual("hola Mauricio");
+  });
 });
